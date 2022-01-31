@@ -1,5 +1,6 @@
 # Data Science and League of Legends
 (In progress..)
+
 League of Legends is one of the most renowed MOBA games in the world with a competitive pro scene. In League of Legends or LoL, 5 players are teamed up and fight againts another team, and which team can destroy the opponent's nexus (opponent's homebase) first gets the victory. Each player can level up, upgrade skills, and buy extra items to make their character stronger within a match. The items are bought with 'Gold' which is earned from killing opponent AI-controlled minions or eliminating the enemy champion.
 
 As all of the matches in LoL are different from each other and there are over 150 unique champions that a player can pick and play, data science can be utilized to identify the trend or key features which can lead to more successful gameplay. Moreover, a machine learning model is trained and used to predict whether a team is winning or losing based on their stats at specific point of time during the match.
