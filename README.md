@@ -5,7 +5,7 @@ League of Legends is one of the most renowed MOBA games in the world with a comp
 
 As all of the matches in LoL are different from each other and there are over 150 unique champions that a player can pick and play, data science can be utilized to identify the trend or key features which can lead to more successful gameplay. Moreover, a machine learning model is trained and used to predict whether a team is winning or losing based on their stats at specific point of time during the match.
 
-![](/images/win_corr.png)
+![](/images/wins_corr.png)
 
 <!-- ## Custom RL Environment with OpenAI Gym
 To properly create a custom environment for single-agent RL environment, below is the list of attributes/properties that are needed to be defined to simulate the characteristics of the environment
