@@ -1,5 +1,5 @@
-# Data Science and League of Legends
-(In progress..)
+# Data Science & League of Legends
+(In progress...)
 
 League of Legends is one of the most renowed MOBA games in the world with a competitive pro scene. In League of Legends or LoL, 5 players are teamed up and fight againts another team, and which team can destroy the opponent's nexus (opponent's homebase) first gets the victory. Each player can level up, upgrade skills, and buy extra items to make their character stronger within a match. The items are bought with 'Gold' which is earned from killing opponent AI-controlled minions or eliminating the enemy champion.
 
