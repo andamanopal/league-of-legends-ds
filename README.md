@@ -5,7 +5,19 @@ League of Legends is one of the most renowed MOBA games in the world with a comp
 
 As all of the matches in LoL are different from each other and there are over 150 unique champions that a player can pick and play, data science can be utilized to identify the trend or key features which can lead to more successful gameplay. Moreover, a machine learning model is trained and used to predict whether a team is winning or losing based on their stats at specific point of time during the match.
 
+
+## Win Prediction
+Correlation plot shows that team total gold and total experience point at 10-min mark are the most important numbers, even more important than kills, that largely increase the chance of winning at the end of the match. Notes that team total exp. and average level are highly correlated to each other so we can drop 'team_average_lvl' column since it's less correlated to the match final result.
+
+Another interesting observation is large negative correlations between deaths and team total cs, total exp, and average level. That means dying in League of Legends considerably widen the gap between both teams' levels and total creep scores. However, dying doesn't really affect the total gold at all as the disadvantaged team is more likely to lose because of lower levels. By the ways, dying a lot can still put your team behind the opponents as seen by negative correlations with every other features.
+
 ![](/images/win_corr.png)
+
+As a binary classification problem, the following classifier models are investigated, hyperparameter-tuned, and compared. The result shows that SVC yields the highest testing accuracy of around 74.2% while other models can also perform equally good at predicting the win/lose result as well. Also, every model shows an improvement in performance and accuracy after hyperparameter tuning.
+
+![](/images/cv_scores.png)
+
+
 
 <!-- ## Custom RL Environment with OpenAI Gym
 To properly create a custom environment for single-agent RL environment, below is the list of attributes/properties that are needed to be defined to simulate the characteristics of the environment
