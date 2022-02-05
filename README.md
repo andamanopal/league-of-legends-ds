@@ -5,6 +5,8 @@ League of Legends is one of the most renowed MOBA games in the world with a comp
 
 As all of the matches in LoL are different from each other and there are over 150 unique champions that a player can pick and play, data science can be utilized to identify the trend or key features which can lead to more successful gameplay. Moreover, a machine learning model is trained and used to predict whether a team is winning or losing based on their stats at specific point of time during the match.
 
+![](/images/eda_1.png)
+
 
 ## Win Prediction
 Correlation plot shows that team total gold and total experience point at 10-min mark are the most important numbers, even more important than kills, that largely increase the chance of winning at the end of the match. Notes that team total exp. and average level are highly correlated to each other so we can drop 'team_average_lvl' column since it's less correlated to the match final result.
